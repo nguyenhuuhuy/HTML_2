@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      td {
+        height: 100px;
+        border: 10;
+      }
+      .tableRow > td{
+        height: 0%;
+        border-color: aliceblue;
+      }
+    </style>
+  </head>
+
+  <body>
+    <table border="2" width="100%" style="text-align: center">
+      <tr>
+        <td colspan="4" style="background-color: red">1</td>
+        <td colspan="8" style="background-color: green">2</td>
+      </tr>
+      <tr>
+        <td colspan="12" style="background-color: blue">3</td>
+      </tr>
+      <tr>
+        <td rowspan="2" colspan="4" style="background-color: violet">4</td>
+        <td rowspan="1" colspan="6" style="background-color: chartreuse">5</td>
+        <td rowspan="2" colspan="2" style="background-color: orange">7</td>
+      </tr>
+      <tr>
+        <td colspan="6" style="background-color: brown">6</td>
+      </tr>
+      <tr>
+        <td colspan="8" style="background-color: gold">8</td>
+        <td colspan="4" style="background-color: chocolate">9</td>
+      </tr>
+    <tr class="tableRow">
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+  </body>
+</html>
